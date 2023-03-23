@@ -4,8 +4,7 @@
   "description": "Pruebas Automatizadas sobre la web de hexacta",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run",
-    "testHeaded": "npx cypress run --headed"
+    "test": "npx cypress run"
   },
   "author": "Oscar",
   "license": "ISC",
