@@ -1,10 +1,11 @@
 {
   "name": "cypressautomation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pruebas Automatizadas sobre la web de hexacta",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run",
+    "testHeaded": "npx cypress run --headed"
   },
   "author": "Oscar",
   "license": "ISC",
@@ -13,5 +14,9 @@
   },
   "devDependencies": {
     "cypress-xpath": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RiquelmeOscar/ExampleHexacta"
   }
 }
